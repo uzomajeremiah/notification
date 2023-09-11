@@ -89,10 +89,6 @@ span {
     .container {
         width: 100%;
     }
-    .notification-header, .notification {
-        margin: 10px 0;
-    }
-
 }
 .attribution { 
     font-size: 13px; 
@@ -101,5 +97,3 @@ span {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
- 
- 
