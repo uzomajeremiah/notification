@@ -36,7 +36,7 @@ span.three {
     font-size: 17px;
 }
 .notification-header p {
-    /* display: inline-block; */
+    display: inline-block;
     float: right;
     text-align: right;
 }
@@ -89,9 +89,23 @@ span {
     .container {
         width: 100%;
     }
+
+}
+@media only screen and (max-width: 420px) {
     .notification-header p {
-        margin-bottom: 15px;
+        margin: 10px 0 ;
         display: block;
+    }
+    .notification-header, .notification-header h2, .notification-header p{
+        float: left;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .chess {
+        position: relative;
+        float: right;
+        right: 10px;
     }
 }
 .attribution { 
