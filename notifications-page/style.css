@@ -87,14 +87,10 @@ span {
     margin-left: 70px;
     padding: 10px;
 }
-/* @media (min-width: 375px) {
-    .container {
-        width: 100%;
-    }
-    .notification-header, .notification {
-        margin: 10px 0;
-        
-    }
-
-} */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
  
