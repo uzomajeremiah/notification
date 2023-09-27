@@ -37,8 +37,10 @@ span.three {
 }
 .notification-header p {
     display: inline-block;
+    /* position: absolute; */
     float: right;
     text-align: right;
+    right: 0px;
 }
 
 
@@ -46,10 +48,17 @@ span.three {
     display: flex;
     position: relative;
     font-size: 17px;
-    background-color: hsl(210, 60%, 98%);
+    border: 3px solid transparent;
     border-radius: 15px;
     margin: 10px 0;
     padding: 20px;
+}
+.unread {
+    background-color: hsl(210, 60%, 98%);
+}
+.read-message {
+    border: 3px solid hsl(210, 60%, 98%);
+    background-color: none;
 }
 
 .notification p{
@@ -69,10 +78,9 @@ img, .img {
 #fa-circle {
     font-size: 10px;
     color: hsl(1, 90%, 64%);
-    margin: 5px;
-
-
+    margin: 0 5px;
 }
+
 p {
     font-size: 17px;
 }

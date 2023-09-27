@@ -17,27 +17,29 @@
     <div class="notification-header">
       <h2>Notifications <span class="three">3</span> </h5>
 
-      <a href="#"><p>Mark all as read<p></a>
+      <a href="#" onclick="
+          readAll();
+        "><p class="mark-as">Mark all as read<p></a>
     </div>
-      <div class="notification">
+      <div class="notification unread">
         <img src="./assets/images/avatar-mark-webber.webp" alt="">
-        <p><span>Mark Webber</span> reacted to your recent post <span>My first tournament today!</span> <i id="fa-circle" class="fa fa-circle"></i>  <br> 1m ago </p>
+        <p><span>Mark Webber</span> reacted to your recent post <span>My first tournament today!</span> <i id="fa-circle" class="fa fa-circle "></i>  <br> 1m ago </p>
         <!-- <span class="dot"></span> -->
       </div>
 
-      <div class="notification">
+      <div class="notification unread read-message">
         <img src="./assets/images/avatar-angela-gray.webp" alt="">
         <p><span>Angela Gray</span> followed you <span class="dot"></span><i id="fa-circle" class="fa fa-circle"></i>  <br>5m ago</p>
       </div>
       
-      <div class="notification">
+      <div class="notification unread">
         <img src="./assets/images/avatar-jacob-thompson.webp" alt="">
         <p><span>Jacob Thompson</span> has joined your group Chess Club<i id="fa-circle" class="fa fa-circle"></i> <br>1 day ago</p>
 
 
       </div>
 
-    <div class="notification">
+    <div class="notification unread">
       <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
       <p><span>Rizky Hasanuddin</span> sent you a private message <br>5 days ago</p> 
     </div>
@@ -46,7 +48,7 @@
       <p class="comment">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
         I'm already having lots of fun and improving my game.</p>
 
-      <div class="notification">
+      <div class="notification unread">
         <img src="./assets/images/avatar-kimberly-smith.webp" alt="">
         <p><span>Kimberly Smith</span> Kimberly Smith commented on your picture <br>1 week ago</p>
         <img class="chess" src="./assets/images/image-chess.webp" alt="">
@@ -54,14 +56,14 @@
       
       
 
-    <div class="notification">
+    <div class="notification unread">
       <img src="./assets/images/avatar-nathan-peterson.webp" alt="">
       <p><span>Nathan Peterson</span>reacted to your recent post 5 end-game strategies to increase your win rate <br>2 weeks ago</p>
 
     </div>
       
       
-    <div class="notification">
+    <div class="notification unread">
       <img src="./assets/images/avatar-anna-kim.webp" alt="">
       <p><span>Anna Kim</span>Anna Kim left the group Chess Club <br>2 weeks ago</p>
     </div>
@@ -75,5 +77,8 @@
         Coded by <a href="#">Gerald Jeremiah</a>.
       </div>
     </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
